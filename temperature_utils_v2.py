@@ -34,5 +34,3 @@ def temperature_tuple_versitale(temperatures: Iterable, input_unit_of_measuremen
 
     result = tuple(converted_temperatures)
     return result
-
-print(temperature_tuple_versitale((0, 32, 100, 212, 273, 373), "f", "k"))
